@@ -1,3 +1,35 @@
+## Project: List Birthday Cakes
+
+## Visulation of the App
+
+![image](./cakes.png)
+
+## Animation of the App
+
+![image](./cakes.gif)
+
+
+
+## Description
+```bash
+- User can list most popular birthday cake's for programmer
+- User can click any image to see cake picture
+```
+
+## Overview
+I mastered HTML, CSS, JavaScript, Tailwind CSS and React features in this project. You can see the visual representation of the app above.
+
+## Technologies 💻
+```bash
+- React(useState)
+- JavaScript
+- HTML/CSS
+- Tailwind CSS
+- Images are taken from Google. You can edit links on src/Images.js file 
+```
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
