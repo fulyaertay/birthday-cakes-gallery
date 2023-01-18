@@ -9,9 +9,9 @@ const [selectedImg,setSelectedImg]=useState(Images[0]);
 
   return (
     <div className="App  bg-gray-200 flex w-full mx-auto m-5 p-10 justify-center items-center flex-col">
-      <h1 className='text-2xl'>Happy Birthday!</h1>
-      <div className="container w-full w-max-width-[540px] mx-auto m-5 justify-center border border-4">
-        <img src={selectedImg} alt="Selected" className="selected mx-auto md:w-[400px] md:h-[400px] sm:w-[200px] md:h-[200px] object-cover"/>
+      <h1 className='text-2xl text-purple-900'>Happy Birthday!❤️</h1>
+      <div className="container w-full w-max-width-[540px] mx-auto m-5 justify-center">
+        <img src={selectedImg} alt="Selected" className="selected mx-auto md:w-[400px] rounded md:h-[400px] sm:w-[200px] md:h-[200px] object-cover"/>
       </div>
       <div className="imgContainer flex justify-center w-70 h-auto grid grid-cols-3 gap-4 object-cover m-10 ">
         {Images.map((img,index) =>(
