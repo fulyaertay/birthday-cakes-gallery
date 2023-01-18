@@ -13,7 +13,7 @@ const [selectedImg,setSelectedImg]=useState(Images[0]);
       <div className="container w-full w-max-width-[540px] mx-auto m-5 justify-center">
         <img src={selectedImg} alt="Selected" className="selected mx-auto md:w-[400px] rounded md:h-[400px] sm:w-[200px] md:h-[200px] object-cover"/>
       </div>
-      <div className="imgContainer flex justify-center w-70 h-auto grid grid-cols-3 gap-4 m-10 ">
+      <div className="imgContainer flex justify-center w-70 h-auto grid grid-cols-3 md:gap-4 sm:gap-2 m-10 ">
         {Images.map((img,index) =>(
           <img key={index} src={img} alt='birthday-cake' className='md:w-[200px] md:h-[200px] sm:w-[50px] sm:h-[50px] md:block md:cursor-pointer object-cover  border border-2'
           onClick={() => setSelectedImg(img)}
